@@ -31,6 +31,9 @@ This document captures the splash screen branding and design preview for the **G
 <img width="901" height="554" alt="Screenshot 2025-07-27 at 8 28 10 PM" src="https://github.com/user-attachments/assets/b0feb37c-5774-438d-961d-1c5de7a8389c" />
 
 
+<img width="907" height="641" alt="Screenshot 2025-07-31 at 9 51 45 PM" src="https://github.com/user-attachments/assets/4c55c350-d6aa-40a5-b0c1-2a822e5855ed" />
+
+
 
 - **App Icon:** Custom GPA logo with arithmetic symbols (addition, subtraction, multiplication, division)
 - **Splash Screen:** Personalized with GitHub handle, minimalist white background, and subtle branding
