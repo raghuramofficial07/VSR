@@ -111,13 +111,6 @@ This CGPA Calculator reflects my core belief:
 
 ---
 
-## » License
-
-Released under the [MIT License](LICENSE).  
-Feel free to build on this—but preserve the **clarity** it represents.
-
----
-
 
 ## » Author Footer
 
