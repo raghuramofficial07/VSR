@@ -115,7 +115,6 @@ This CGPA Calculator reflects my core belief:
 ## » Author Footer
 
 **Created By:** Vemparala Sri Satya RaghuRam  
-**License:** MIT  
 **Platform:** Swift (iOS UIKit)  
 
 <p align="left">
