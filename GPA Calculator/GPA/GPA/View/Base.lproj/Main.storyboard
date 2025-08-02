@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GPA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="5Ev-jr-9LW">
+                                <rect key="frame" x="46.333333333333343" y="286.33333333333337" width="300.33333333333326" height="279.33333333333337"/>
+                                <subviews>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RpS-Wv-az8" customClass="RoundedCardView" customModule="GPA" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="300.33333333333331" height="279.33333333333331"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="NuR-uc-AK9">
+                                                <rect key="frame" x="34.999999999999986" y="35.000000000000014" width="230.33333333333331" height="209.33333333333337"/>
+                                                <subviews>
+                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Present GPA" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="G7e-sC-Ux3">
+                                                        <rect key="frame" x="0.0" y="0.0" width="230.33333333333334" height="34.333333333333336"/>
+                                                        <color key="backgroundColor" name="CardColor"/>
+                                                        <color key="tintColor" name="CardColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="cjE-N4-Zmw"/>
+                                                        </constraints>
+                                                        <color key="textColor" systemColor="systemBackgroundColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="next" enablesReturnKeyAutomatically="YES" textContentType="one-time-code"/>
+                                                    </textField>
+                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Remaining Sem(s)" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zHp-TL-3eC">
+                                                        <rect key="frame" x="0.0" y="58.333333333333371" width="230.33333333333334" height="34.333333333333343"/>
+                                                        <color key="backgroundColor" name="CardColor"/>
+                                                        <color key="tintColor" name="CardColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="mle-uQ-ZK1"/>
+                                                        </constraints>
+                                                        <color key="textColor" name="CardColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="one-time-code"/>
+                                                    </textField>
+                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Target CGPA" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Iyb-yV-WAO">
+                                                        <rect key="frame" x="0.0" y="116.66666666666667" width="230.33333333333334" height="34.333333333333329"/>
+                                                        <color key="backgroundColor" name="CardColor"/>
+                                                        <color key="tintColor" name="CardColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="VIf-xa-FyG"/>
+                                                        </constraints>
+                                                        <color key="textColor" name="CardColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                                                    </textField>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aNm-tC-Rlb">
+                                                        <rect key="frame" x="0.0" y="175" width="230.33333333333334" height="34.333333333333343"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="tinted" title="Get CGPA">
+                                                            <color key="baseBackgroundColor" name="CardColor"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="calculateRequiredGPA:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dPT-NI-Tw1"/>
+                                                            <segue destination="e8h-WM-5ff" kind="presentation" identifier="Screen2" id="4Cf-lP-4gN"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" name="CardColor"/>
+                                        <constraints>
+                                            <constraint firstItem="NuR-uc-AK9" firstAttribute="top" secondItem="RpS-Wv-az8" secondAttribute="top" constant="35" id="3x3-wY-Brh"/>
+                                            <constraint firstAttribute="trailing" secondItem="NuR-uc-AK9" secondAttribute="trailing" constant="35" id="Rul-Bh-O75"/>
+                                            <constraint firstAttribute="bottom" secondItem="NuR-uc-AK9" secondAttribute="bottom" constant="35" id="VLW-3p-BsH"/>
+                                            <constraint firstItem="NuR-uc-AK9" firstAttribute="leading" secondItem="RpS-Wv-az8" secondAttribute="leading" constant="35" id="eKX-HO-kMm"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="© VSR Design(s)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FkX-WO-Wwe">
+                                <rect key="frame" x="61" y="763" width="280" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="De9-h0-9ea"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="bvD-a7-lXg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" name="Text Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="Color"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FkX-WO-Wwe" secondAttribute="trailing" constant="52" id="CZk-Rt-bpP"/>
+                            <constraint firstItem="5Ev-jr-9LW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="D11-GB-Rt0"/>
+                            <constraint firstItem="FkX-WO-Wwe" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="DDQ-bS-Ktt"/>
+                            <constraint firstItem="5Ev-jr-9LW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FHd-2K-Pxt"/>
+                            <constraint firstItem="FkX-WO-Wwe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="61" id="JNK-uH-JNs"/>
+                            <constraint firstItem="FkX-WO-Wwe" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="bwR-u4-Elh"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="rOw-kV-fnk"/>
+                    <connections>
+                        <outlet property="PresentGPA" destination="G7e-sC-Ux3" id="jTR-R4-ysK"/>
+                        <outlet property="RemainingSem" destination="zHp-TL-3eC" id="jmv-j6-bm3"/>
+                        <outlet property="Target" destination="Iyb-yV-WAO" id="l27-Dm-B4g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1742.7480916030534" y="2.1126760563380285"/>
+        </scene>
+        <!--Result Screen-->
+        <scene sceneID="8Cx-QW-YKV">
+            <objects>
+                <viewController id="e8h-WM-5ff" customClass="ResultScreen" customModule="GPA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aB3-j8-DeC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="51" translatesAutoresizingMaskIntoConstraints="NO" id="NJs-ZR-QEd">
+                                <rect key="frame" x="16" y="210.99999999999997" width="361" height="361.33333333333326"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="em2-nZ-Wn4" customClass="RoundedCardView" customModule="GPA" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="361" height="276"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="apM-fX-R6A">
+                                                <rect key="frame" x="135" y="108" width="98" height="61"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
+                                                <color key="textColor" name="Text Color"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" name="CardColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="apM-fX-R6A" secondAttribute="bottom" constant="107" id="4AT-9d-vSI"/>
+                                            <constraint firstItem="apM-fX-R6A" firstAttribute="top" secondItem="em2-nZ-Wn4" secondAttribute="top" constant="108" id="ght-G0-edR"/>
+                                            <constraint firstAttribute="trailing" secondItem="apM-fX-R6A" secondAttribute="trailing" constant="128" id="nXM-vA-9Ox"/>
+                                            <constraint firstItem="apM-fX-R6A" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="em2-nZ-Wn4" secondAttribute="leading" constant="20" symbolic="YES" id="waK-P4-l3S"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="50"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S8P-pU-nm7">
+                                        <rect key="frame" x="143" y="327" width="75" height="34.333333333333314"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34.329999999999998" id="SjU-sc-yB6"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="75" id="xeD-g5-SNs"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                        <connections>
+                                            <action selector="ButtonPressed:" destination="e8h-WM-5ff" eventType="touchUpInside" id="oOp-C7-RZx"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="S8P-pU-nm7" secondAttribute="trailing" constant="143" id="kr7-wD-H05"/>
+                                    <constraint firstItem="S8P-pU-nm7" firstAttribute="leading" secondItem="NJs-ZR-QEd" secondAttribute="leading" constant="143" id="qkP-RQ-Lv1"/>
+                                    <constraint firstItem="S8P-pU-nm7" firstAttribute="top" secondItem="em2-nZ-Wn4" secondAttribute="bottom" constant="51" id="woZ-xU-WI3"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ub7-Sj-Aov"/>
+                        <color key="backgroundColor" name="Color"/>
+                        <constraints>
+                            <constraint firstItem="NJs-ZR-QEd" firstAttribute="centerY" secondItem="aB3-j8-DeC" secondAttribute="centerY" id="9f3-ly-WaE"/>
+                            <constraint firstItem="NJs-ZR-QEd" firstAttribute="centerX" secondItem="aB3-j8-DeC" secondAttribute="centerX" id="yi4-n9-0ac"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="eZ1-ZO-vVu"/>
+                    <connections>
+                        <outlet property="ResultText" destination="apM-fX-R6A" id="9Lw-Jc-CCb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QRc-OF-eyp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2475.5725190839694" y="1.4084507042253522"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="CardColor">
+            <color red="0.043137259781360626" green="0.031372550874948502" blue="0.10980391502380371" alpha="0.15000000596046448" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Color">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Text Color">
+            <color red="0.019607843831181526" green="0.015686275437474251" blue="0.0039215688593685627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
