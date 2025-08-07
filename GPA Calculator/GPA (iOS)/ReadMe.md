@@ -52,8 +52,7 @@ A precise and lightweight iOS app to help students calculate the GPA they need i
 - `Target CGPA` — the final CGPA the student wants to achieve.
 - `Remaining Semesters` — number of semesters left (out of 8).
 
----
-
+<!--
 ## » Formula Used
 
 Let:
@@ -64,11 +63,11 @@ Let:
 - `CG_current = Current CGPA`  
 - `CG_target = Target CGPA`
 
-```
-GPA_required = ((CG_target * T) - (CG_current * C)) / R
-```
+Use this formula:
 
----
+    GPA_required = ((CG_target * T) - (CG_current * C)) / R
+-->
+
 
 ## » Tags
 
