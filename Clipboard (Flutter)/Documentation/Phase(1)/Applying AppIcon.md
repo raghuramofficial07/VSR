@@ -23,7 +23,8 @@
 ## » Introduction
 This guide explains how to set a **custom app icon** for both Android and iOS using the `flutter_launcher_icons` package.
 
-![Untitled 1](https://github.com/user-attachments/assets/5782594f-4cb0-4a63-b2c5-0438c228f0c8)
+![Launch_page-0001](https://github.com/user-attachments/assets/371f4e49-7aa2-4c3e-af10-dbb3b3abf1db)
+
 
 
 ---
