@@ -28,7 +28,7 @@ This project marks the **final chapter of my Storyboard journey** —
 
 ## » Features  
 
-- 📊 **GPA Calculator** – Compute GPA based on subject credits and grades.  
+- 📊 **GPA Calculator** – Computes GPA .
 - 📅 **Attendance Calculator** – Track attendance percentage and requirements.  
 - ➗ **Math Utilities** – Sin, Cos, π values and quick trigonometric computations.  
 - ⚡ **C++ Computation Engine** – Mathematical calculations powered by **bridging Swift ↔ C++** for faster performance.  
