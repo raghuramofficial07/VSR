@@ -9,9 +9,7 @@
 </p>
 
 # » Compagno – The One Last Dance with Storyboard
-
-
-![VSR(3)](https://github.com/user-attachments/assets/3cc060e5-70c9-404d-b4b6-b167729c8530)
+![VSR(3)](https://github.com/user-attachments/assets/5f22d73c-fa2a-4a06-9ce0-cb042eb45c04)
 
 
 ---
