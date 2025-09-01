@@ -37,6 +37,11 @@ This repository showcases **demo videos and screenshots** of my app, highlightin
   <img width="350" src="https://github.com/user-attachments/assets/d4311b4a-c73f-4ff2-a533-500b9477591c" />
 </p>
 
+
+https://github.com/user-attachments/assets/002952cb-83c4-405f-b917-5e2bda5fd1a2
+
+
+
 ## » Key Features Highlighted
 - Clean, monochrome UI/UX design  
 - Smooth navigation and interactions  
