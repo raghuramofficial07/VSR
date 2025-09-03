@@ -88,4 +88,46 @@ By attaching `.focused($isInputActive)` to a `TextField`, its keyboard visibilit
 
 This means setting the bound `@FocusState` variable to `false` is enough to close the keyboard across all linked text fields, without extra UIKit extensions or hacks.
 
+## » Keyboard Dismissal in SwiftUI
 
+In SwiftUI, the keyboard is controlled by **focus state bindings**.  
+By attaching `.focused($isInputActive)` to a `TextField`, its keyboard visibility depends on the Boolean flag `isInputActive`.  
+
+- When `isInputActive = true` → the text field is focused, and the keyboard appears.  
+- When `isInputActive = false` → the text field loses focus, and the keyboard is dismissed.  
+
+This means setting the bound `@FocusState` variable to `false` is enough to close the keyboard across all linked text fields, without extra UIKit extensions or hacks.  
+
+---
+
+## » Senior Developer Best Practice with Multiple Fields
+
+Senior developers often use an **enum-based `@FocusState`** when multiple fields exist in a form.  
+This makes it easier to manage which field is active, and to dismiss the keyboard cleanly.  
+
+Example:  
+
+```swift
+struct LoginView: View {
+    enum Field { case username, password }
+    @FocusState private var focusedField: Field?
+    
+    @State private var username = ""
+    @State private var password = ""
+    
+    var body: some View {
+        VStack {
+            TextField("Username", text: $username)
+                .focused($focusedField, equals: .username)
+            
+            SecureField("Password", text: $password)
+                .focused($focusedField, equals: .password)
+            
+            Button("Login") {
+                focusedField = nil   // dismisses keyboard for all fields
+            }
+        }
+        .padding()
+    }
+}
+```
