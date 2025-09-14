@@ -17,6 +17,9 @@
 [![IndustryOriented](https://img.shields.io/badge/tag-IndustryOriented-black.svg)](https://github.com/VemparalaSriSatyaRaghuRam)
 [![CodeWithRaghuRam](https://img.shields.io/badge/tag-CodeWithRaghuRam-black.svg)](https://github.com/VemparalaSriSatyaRaghuRam)
 
+<img width="2045" height="737" alt="NotebookLM Mind Map" src="https://github.com/user-attachments/assets/54576892-d824-475b-9276-aaffdee76932" />
+
+
 ## » Introduction
 
 Core Data is a powerful framework provided by Apple, essential for managing the model layer objects within an application. It offers a generalized and automated approach to common tasks related to object lifecycle and object graph management, including persistence. The framework is designed to significantly reduce the amount of code developers need to write for the model layer, often by 50 to 70 percent, due to its comprehensive built-in features.
